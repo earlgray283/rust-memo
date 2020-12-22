@@ -1,0 +1,10 @@
+[package]
+name = "async_study"
+version = "0.1.0"
+authors = ["earlgray <earlgray283@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = { version = "1.8.0", features = [ "attributes" ] }
